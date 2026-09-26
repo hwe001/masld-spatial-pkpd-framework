@@ -1,0 +1,7 @@
+scenario,max_bile_metabolite,peak_total_injury,terminal_total_injury
+normal control: baseline,3.9283841,0.012232183,0.01045057
+normal control: MRP2 inhibition,2.9882244,0.020747862,0.017890593
+normal control: 50% obstruction,4.2713292,0.022256875,0.020168004
+steatosis: baseline,52.224276,0.18415542,0.18415542
+steatosis: MRP2 inhibition,41.317725,0.18377826,0.18377826
+steatosis: 50% obstruction,52.224481,0.21658407,0.21658407

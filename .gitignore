@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+outputs/lo_profile/
+outputs/**/qa/
+outputs/**/review_render/
+outputs/libreoffice-installer/
+outputs/libreoffice-portable/
+~$*.docx
+.DS_Store

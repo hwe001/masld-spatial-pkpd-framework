@@ -1,0 +1,5 @@
+scenario,biliary_metabolite_auc,peak_total_injury,final_total_injury
+baseline,16.102213,0,0
+MRP2 inhibition,14.825169,0.012560504,0.010206692
+50% flow reduction,30.859455,0,0
+combined stress,28.231783,0.012561282,0.010207451

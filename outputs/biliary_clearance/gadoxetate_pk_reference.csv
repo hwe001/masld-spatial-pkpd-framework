@@ -1,0 +1,13 @@
+parameter,value,units,source_or_note
+recommended_dose,0.025,mmol_per_kg,FDA EOVIST label
+recommended_volume,0.1,mL_per_kg,FDA EOVIST label
+terminal_half_life,0.91-0.95,h,healthy adults FDA EOVIST label
+total_clearance,250,mL_per_min,healthy adults FDA EOVIST label
+renal_clearance,120,mL_per_min,healthy adults FDA EOVIST label
+steady_state_distribution_volume,0.21,L_per_kg,FDA EOVIST label
+plasma_protein_binding,<10,percent,FDA EOVIST label
+hepatobiliary_fraction,approximately 50,percent,normal liver and kidney function
+renal_fraction,approximately 50,percent,normal liver and kidney function
+severe_hepatic_impairment_hepatobiliary_fraction,approximately 5,percent,FDA EOVIST label
+moderate_hepatic_impairment_plasma_auc,1.6,fold_vs_healthy,FDA EOVIST label
+moderate_hepatic_impairment_hepatobiliary_excretion,0.7,fold_vs_healthy,FDA EOVIST label

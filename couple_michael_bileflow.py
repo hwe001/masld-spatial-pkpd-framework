@@ -1,4 +1,8 @@
-"""Couple the public Michael Kuecken bileflow inputs to drug transport.
+"""Couple the Segovia-Miranda et al. bile-flow inputs to drug transport.
+
+The source bile-flow model is Segovia-Miranda et al. (Nature Medicine 2019),
+with the public implementation and input files maintained by Michael Kücken:
+https://github.com/MichaelKuecken/bileflow
 
 The original C++ program solves the detailed bile-flow ODE on 10,000 points.
 This adapter uses the repository's published ten-point input profiles to

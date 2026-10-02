@@ -27,6 +27,10 @@ Rodent studies are used as mechanistic context, not as direct sources of human f
 - `create_second_paper_draft.py`: manuscript generation
 - `create_supplementary_information.py`: supplementary-information generation
 
+## Bile-flow source
+
+The ten-position carrier inputs are adapted from Segovia-Miranda F, Morales-Navarrete H, Kücken M, et al. *Nature Medicine*. 2019;25:1885-1893. doi:10.1038/s41591-019-0660-7. The associated public implementation and input files are maintained at [Michael Kücken's bileflow repository](https://github.com/MichaelKuecken/bileflow). This project adds a reduced pharmacology adapter; it does not reproduce the full bile-flow solver.
+
 ## Scope
 
 The human-derived coefficients are protein-abundance gradients, not atlas-derived functional measurements. The outputs are structural-sensitivity results and are not clinical dosing, efficacy, toxicity, or DDI predictions. The rerun changed the healthy-control bile-AUC contrast to 5.3% (zonated 200.15 versus well-mixed 190.04 model units); disease-state contrasts were retained as hypothesis scenarios.

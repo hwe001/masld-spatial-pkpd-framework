@@ -1,9 +1,13 @@
-"""Human hepatobiliary transporter fields for the zonated pilot model.
+"""Human-profile hepatobiliary transporter fields for the zonated pilot model.
 
-The Nature Genetics 2025 atlas supplies the four-zone human spatial frame and
-the control/MASL/MASH disease states. It does not publish compound-specific
-transport constants, so these are dimensionless hypothesis fields awaiting
-replacement by atlas-derived expression scores.
+The profile framework is organized around three human evidence layers:
+healthy spatial organization (Yakubovsky et al., Nature 2026), protein-level
+zonation and architectural vulnerability (Weiss et al., Nature Metabolism
+2026), and disease-associated remodeling across control, MASL, and MASH (Li
+et al., Nature Genetics 2025). These studies do not publish compound-specific
+functional transport constants, so the fields below remain dimensionless
+hypothesis profiles awaiting quantitative human protein and functional data.
+Rodent studies motivate mechanisms but are not imported as human fold changes.
 """
 
 import numpy as np

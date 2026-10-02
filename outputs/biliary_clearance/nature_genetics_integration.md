@@ -30,5 +30,13 @@ Spatial Multiomics Atlas and accessions HRA007511, OMIX009098, OMIX010136, and
 OMIX009117. Numeric gene-level calibration should replace these factors after
 the source spreadsheets are imported. The 2026 human atlas and proteomics
 papers define the biological evidence layers but do not provide
-compound-specific functional transporter rates; the current numeric
-coefficients therefore remain hypothesis parameters.
+compound-specific functional transporter rates. The healthy-control profile
+now incorporates three processed human protein zonation coefficients from
+Weiss et al. (`ABCB11`, `ABCB4`, and `SLCO1B1`), stored in
+`data/human_profiles/` with source and transform metadata. These are
+protein-abundance gradients, not functional transporter rates. The MASL/MASH
+profiles remain hypothesis parameters pending matched human disease-state
+transporter measurements. In the rerun, the healthy-control bile-AUC contrast
+changed to 5.3% (zonated 200.15 versus well-mixed 190.04); MASL/MASH outputs
+were unchanged because unsupported disease coefficients were not replaced by
+invented values.

@@ -14,7 +14,7 @@ The profile framework is organized around three complementary human evidence lay
 - human protein-level zonation and architectural vulnerability from Weiss et al., *Nature Metabolism* (2026), doi:10.1038/s42255-026-01459-2;
 - disease-associated spatial remodeling across control, MASL, and MASH from Li et al., *Nature Genetics* (2025), doi:10.1038/s41588-025-02407-8.
 
-Rodent studies are used as mechanistic context, not as direct sources of human fold changes. The current coefficients remain transparent hypothesis parameters because the human studies do not by themselves provide compound-specific functional uptake and export rates.
+Rodent studies are used as mechanistic context, not as direct sources of human fold changes. The healthy-control profiles now incorporate three human protein zonation coefficients from Weiss et al. (ABCB11, ABCB4, and SLCO1B1); the derived, mean-normalized profiles are stored in `data/human_profiles/`. MASL and MASH profiles remain transparent hypothesis parameters because matched human disease-state functional transporter measurements are not available.
 
 ## Main components
 
@@ -29,7 +29,7 @@ Rodent studies are used as mechanistic context, not as direct sources of human f
 
 ## Scope
 
-The current transporter coefficients are transparent hypothesis parameters, not atlas-derived functional measurements. The outputs are structural-sensitivity results and are not clinical dosing, efficacy, toxicity, or DDI predictions.
+The human-derived coefficients are protein-abundance gradients, not atlas-derived functional measurements. The outputs are structural-sensitivity results and are not clinical dosing, efficacy, toxicity, or DDI predictions. The rerun changed the healthy-control bile-AUC contrast to 5.3% (zonated 200.15 versus well-mixed 190.04 model units); disease-state contrasts were retained as hypothesis scenarios.
 
 ## Reproducibility
 
